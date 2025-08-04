@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Minesweeper</title>
+    <link rel="stylesheet" href="/src/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Minesweeper</h1>
+      <div class="controls">
+        <button data-difficulty="beginner">Beginner</button>
+        <button data-difficulty="intermediate">Intermediate</button>
+        <button data-difficulty="expert">Expert</button>
+        <button id="reset">🙂</button>
+      </div>
+      <div class="status-bar">
+        <div id="mine-counter">💣 0</div>
+        <div id="timer">⏱ 0</div>
+      </div>
+      <div id="board"></div>
+    </div>
+
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
